@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E61403C71FBDDA3200E151C8 /* JavascriptBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = E61403C51FBDDA3200E151C8 /* JavascriptBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E61403E71FBDDF5100E151C8 /* WebViewJavascriptBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = E61403DF1FBDDF5100E151C8 /* WebViewJavascriptBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E61403E81FBDDF5100E151C8 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = E61403E01FBDDF5100E151C8 /* WebViewJavascriptBridge.m */; };
 		E61403E91FBDDF5100E151C8 /* WebViewJavascriptBridge_JS.h in Headers */ = {isa = PBXBuildFile; fileRef = E61403E11FBDDF5100E151C8 /* WebViewJavascriptBridge_JS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E61403EA1FBDDF5100E151C8 /* WebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = E61403E21FBDDF5100E151C8 /* WebViewJavascriptBridge_JS.m */; };
 		E61403EB1FBDDF5100E151C8 /* WebViewJavascriptBridgeBase.h in Headers */ = {isa = PBXBuildFile; fileRef = E61403E31FBDDF5100E151C8 /* WebViewJavascriptBridgeBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -22,8 +20,6 @@
 		E61403C21FBDDA3200E151C8 /* JavascriptBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JavascriptBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E61403C51FBDDA3200E151C8 /* JavascriptBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JavascriptBridge.h; sourceTree = "<group>"; };
 		E61403C61FBDDA3200E151C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E61403DF1FBDDF5100E151C8 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
-		E61403E01FBDDF5100E151C8 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
 		E61403E11FBDDF5100E151C8 /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
 		E61403E21FBDDF5100E151C8 /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
 		E61403E31FBDDF5100E151C8 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
@@ -72,8 +68,6 @@
 		E61403DE1FBDDF5100E151C8 /* WebViewJavascriptBridge */ = {
 			isa = PBXGroup;
 			children = (
-				E61403DF1FBDDF5100E151C8 /* WebViewJavascriptBridge.h */,
-				E61403E01FBDDF5100E151C8 /* WebViewJavascriptBridge.m */,
 				E61403E11FBDDF5100E151C8 /* WebViewJavascriptBridge_JS.h */,
 				E61403E21FBDDF5100E151C8 /* WebViewJavascriptBridge_JS.m */,
 				E61403E31FBDDF5100E151C8 /* WebViewJavascriptBridgeBase.h */,
@@ -91,7 +85,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E61403E71FBDDF5100E151C8 /* WebViewJavascriptBridge.h in Headers */,
 				E61403ED1FBDDF5100E151C8 /* WKWebViewJavascriptBridge.h in Headers */,
 				E61403E91FBDDF5100E151C8 /* WebViewJavascriptBridge_JS.h in Headers */,
 				E61403C71FBDDA3200E151C8 /* JavascriptBridge.h in Headers */,
@@ -170,7 +163,6 @@
 				E61403EA1FBDDF5100E151C8 /* WebViewJavascriptBridge_JS.m in Sources */,
 				E61403EE1FBDDF5100E151C8 /* WKWebViewJavascriptBridge.m in Sources */,
 				E61403EC1FBDDF5100E151C8 /* WebViewJavascriptBridgeBase.m in Sources */,
-				E61403E81FBDDF5100E151C8 /* WebViewJavascriptBridge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

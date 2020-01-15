@@ -16,7 +16,6 @@ FOUNDATION_EXPORT const unsigned char JavascriptBridgeVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <JavascriptBridge/PublicHeader.h>
 
-#import <JavascriptBridge/WebViewJavascriptBridge.h>
 #import <JavascriptBridge/WebViewJavascriptBridge_JS.h>
 #import <JavascriptBridge/WebViewJavascriptBridgeBase.h>
 #import <JavascriptBridge/WKWebViewJavascriptBridge.h>
